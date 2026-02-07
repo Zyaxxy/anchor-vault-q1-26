@@ -3,7 +3,7 @@ import { Program } from "@coral-xyz/anchor";
 import { AnchorVaultQ126 } from "../target/types/anchor_vault_q1_26";
 import { expect } from "chai";
 
-describe("anchor_vault_q4_25", () => {
+describe("anchor_vault_q1_26", () => {
   const provider = anchor.AnchorProvider.env();
   anchor.setProvider(provider);
 
